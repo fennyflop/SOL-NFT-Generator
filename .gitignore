@@ -1,0 +1,11 @@
+# NPM packages folder.
+node_modules
+
+.vscode
+
+# lock files
+package-lock.json
+
+build
+
+outputs
