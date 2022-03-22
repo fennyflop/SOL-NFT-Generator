@@ -80,6 +80,7 @@ const getPermutations = (arraysToCombine, max) => {
 const createMetadata = (traits, background, index) => {
     const response = JSON.parse(JSON.stringify(boilerPlate));
 
+    response["image"] = `${quantity - 1}.png`;
     response["description"] = `just an ordinary ${background} teenager.`;
     response["name"] = `${background} ${names[Math.floor(Math.random() * names.length)]} N${index}`;
 
